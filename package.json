@@ -9,7 +9,7 @@
     "lint": "eslint src/**/*.ts",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "build": "rollup --config build/rollup.config.js",
-    "release": "bash script/release.sh"
+    "release": "bash scripts/release.sh"
   },
   "lint-staged": {
     "src/**/*.{js,ts,tsx}": [
