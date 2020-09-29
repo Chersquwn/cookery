@@ -12,7 +12,7 @@ on:
 
 jobs:
   test-and-build:
-    name: Test cookery on node v14 and ${{ matrix.os }}
+    name: Test and build on node v14 and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
