@@ -7,11 +7,11 @@ on:
   pull_request:
   push:
     branches:
+      - main
       - master
-      - release/*
 
 jobs:
-  test:
+  test-and-build:
     name: Test cookery on node v14 and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
@@ -34,3 +34,5 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
+      - name: Build
+        run: yarn build
