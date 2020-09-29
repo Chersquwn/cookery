@@ -1,5 +1,10 @@
 # cookery
 
+---
+
+[![codecov](https://codecov.io/gh/Chersquwn/cookery/branch/master/graph/badge.svg?token=O8A99QKRB7)](https://codecov.io/gh/Chersquwn/cookery/)
+[![build status](https://github.com/Chersquwn/cookery/workflows/cookery/badge.svg)](https://github.com/Chersquwn/cookery/actions)
+
 ## Getting Started
 
 ### Installation
@@ -93,13 +98,13 @@ yarn add cookery
     | ---- | -------------- | -------------------- | ------ |
     | num  | 要格式化的数字 | `string` ｜ `number` | -      |
 
-### time
+#### time
 
 - getTimezoneOffset()
 
   - 返回 `string`
 
-### type-transform
+#### type-transform
 
 - enumToObject(enumeration)
 
