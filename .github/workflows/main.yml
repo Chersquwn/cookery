@@ -6,7 +6,7 @@ name: cookery
 on:
   pull_request:
   push:
-    branches: 
+    branches:
       - master
       - release/*
 
@@ -24,11 +24,11 @@ jobs:
         with:
           node-version: 14
       - name: Install Dependencies
-        run: npm install
+        run: yarn --frozen-lockfile --non-interactive
       - name: Lint
-        run: npm lint
+        run: yarn lint
       - name: Test
-        run: npm test
+        run: yarn test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
         with:
