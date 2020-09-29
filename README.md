@@ -3,7 +3,7 @@
 ---
 
 [![codecov](https://codecov.io/gh/Chersquwn/cookery/branch/master/graph/badge.svg?token=O8A99QKRB7)](https://codecov.io/gh/Chersquwn/cookery/)
-[![build status](https://github.com/Chersquwn/cookery/workflows/cookery/badge.svg)](https://github.com/Chersquwn/cookery/actions)
+[![build status](https://github.com/Chersquwn/cookery/workflows/build/badge.svg)](https://github.com/Chersquwn/cookery/actions)
 
 ## Getting Started
 
