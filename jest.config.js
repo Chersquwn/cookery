@@ -1,1 +1,1 @@
-process.env.TZ = 'GMT+8'
+process.env.TZ = 'GMT'
