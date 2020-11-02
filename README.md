@@ -104,7 +104,7 @@ yarn add cookery
 
   - 返回 `string`
 
-#### type-transform
+#### transform
 
 - enumToObject(enumeration)
 
@@ -115,6 +115,15 @@ yarn add cookery
     | enumeration | 源枚举 | `enum` | -      |
 
   - 返回 `Object`
+
+- byteUintTransform(byte, unit)
+
+  - 参数
+
+    | 参数 | 说明       | 类型     | 默认值 |
+    | ---- | ---------- | -------- | ------ |
+    | byte | 输入值     | `number` | -      |
+    | unit | 单位, 可选 | `'B'     | 'KB'   | 'MB' | 'GB' | 'TB' | 'PB' | 'EB' | 'ZB' | 'YB'` | - |
 
 ## License
 
